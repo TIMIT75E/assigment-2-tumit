@@ -231,6 +231,20 @@ body {
 .date-btn-2{
     background: rgb(89, 3, 194); ;
 }
+.stry-btn{
+    padding: 15px 50px;
+    margin-top: 80px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: medium;
+
+}
+
+.kid-bag{
+    display: flex;
+}
 @media screen and (max-width: 576px) {
     .hiden {
         display: none;
