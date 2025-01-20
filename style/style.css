@@ -241,9 +241,28 @@ body {
     font-size: medium;
 
 }
-
+.kids-footer{
+    max-width: 11140px;
+    margin: 0 auto;
+    background-color: #01ACFD;
+}
+.kid-education{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-part{
+    margin: 123px 130px;
+}
 .kid-bag{
     display: flex;
+    gap: 10px;
+}
+.about-scl ul li{
+    list-style: none ;
+}
+.links{
+    display:flex ;
+    gap: 8px;
 }
 @media screen and (max-width: 576px) {
     .hiden {
@@ -303,5 +322,10 @@ body {
     }
     .sub-story > h3 {
         font-size: 12px;
+    }
+    .kid-education{
+        flex-direction: column;
+        justify-content: start;
+        
     }
 }
