@@ -245,6 +245,7 @@ body {
     max-width: 11140px;
     margin: 0 auto;
     background-color: #01ACFD;
+    color: white;
 }
 .kid-education{
     display: flex;
@@ -325,7 +326,13 @@ body {
     }
     .kid-education{
         flex-direction: column;
-        justify-content: start;
-        
+        align-items: flex-start;
+        text-align: left; 
+    }
+    .kid-bag{
+        margin-top: 67px;
+    }
+    .first-part{
+        margin: 0px 8px;
     }
 }
